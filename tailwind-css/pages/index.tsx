@@ -117,6 +117,23 @@ const Home: NextPage = () => {
           <input type="submit" value="Login" className="bg-white"/>
         </form>
       </div>
+
+      <div className="bg-white p-10 rounded-2xl shadow-2xl">
+        <details className="select-none open:text-white open:bg-indigo-400">
+          <summary className="cursor-pointer">
+            what is my fav. food.
+          </summary>
+          <ul className="list-decimal marker:text-teal-500">
+            <li>hu</li>
+            <li>hu</li>
+            <input type="file" className="file:border-0 file:rounded-md file:bg-purple-400"/>
+          </ul>
+        </details>
+      </div>
+
+      <div className="bg-white p-10 rounded-2xl shadow-2xl">
+        <p className="first-letter:text-7xl first-letter:hover:text-purple-400">Hello joycoding</p>
+      </div>
     </div>
   )
 }
