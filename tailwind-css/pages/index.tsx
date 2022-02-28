@@ -131,7 +131,7 @@ const Home: NextPage = () => {
         </details>
       </div>
 
-      <div className="bg-white p-10 rounded-2xl shadow-2xl">
+      <div className="bg-white p-10 rounded-2xl shadow-2xl sm:bg-purple-400 md:bg-yellow-500 lg:bg-lime-400 xl:bg-indigo-400">
         <p className="first-letter:text-7xl first-letter:hover:text-purple-400">Hello joycoding</p>
       </div>
     </div>
