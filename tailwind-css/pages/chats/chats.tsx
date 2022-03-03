@@ -2,8 +2,8 @@ import type { NextPage } from "next";
 
 const Chats: NextPage = () => {
   return (
-    <div className="py-10 divide-y-[1px] ">
-      {[1, 1, 1, 1, 1, 1, 1].map((_, i) => (
+    <div className="py-10 divide-y-[1px]">
+      {[...Array(6)].map((_, i) => (
         <div
           key={i}
           className="flex px-4 cursor-pointer py-3 items-center space-x-3"
