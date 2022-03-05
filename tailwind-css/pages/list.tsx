@@ -1,9 +1,11 @@
 import type { NextPage } from "next";
+import Layout from "../components/layout";
 
 const List: NextPage = () => {
   // return null;
   return (
-    <div className="flex flex-col space-y-5 py-10">
+    <Layout title="home">
+      <div className="flex flex-col space-y-5 py-10">
       {[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1].map((_, i) => (
         <div key={i} className="px-4 flex border-b cursor-pointer justify-between">
           <div className="flex space-x-4">
@@ -70,6 +72,7 @@ const List: NextPage = () => {
         </svg>
       </button>
     </div>
+    </Layout>
   );
 };
 
